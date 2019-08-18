@@ -14,7 +14,7 @@ public class DataBaseConnection {
 	public  Statement getStatement()  {
 		String driver ="com.mysql.cj.jdbc.Driver";
 		String connection="connectionName";
-		String userName="saldogra_naveen";
+		String userName="WhatEverUserNameIs";
 		String password="password";
 		try {
 			Class.forName(driver);
