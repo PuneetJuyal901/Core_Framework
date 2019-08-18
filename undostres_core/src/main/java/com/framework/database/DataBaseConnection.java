@@ -13,9 +13,9 @@ public class DataBaseConnection {
 	
 	public  Statement getStatement()  {
 		String driver ="com.mysql.cj.jdbc.Driver";
-		String connection="jdbc:mysql://sandbox.cpi0yoqzrjqz.us-west-1.rds.amazonaws.com:3306/saldogra_sandbox";
+		String connection="connectionName";
 		String userName="saldogra_naveen";
-		String password="cvkk7ZpFj8MgaqFx";
+		String password="password";
 		try {
 			Class.forName(driver);
 		} catch (ClassNotFoundException e) {
